@@ -2,6 +2,8 @@ This is a solution for the test task #2.
 
 This algorithm is based solely on human parsing segments, pose estimation was not used. 
 
+You can find code in **test_task.ipynb**, segmented pictures are stored in **dataset/masked_images/** folder.
+
 ## Stages of mask creation process:
 1. Find pants/skirt segment.
 2. Find 4 corners of pants segment (upper left, upper right, downwards left, downwards right - UL, UR, DL, DR).
