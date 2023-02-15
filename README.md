@@ -9,7 +9,7 @@ This algorithm is based solely on human parsing segments, pose estimation was no
 4. Find left and right lines which cross UL, UR and DL, DR respectively. 
 5. Draw a visible part of that line from DL/DR to the point of height of boot/leg corners, remember that point.
 6. Create a polygon with following points: DL, left line end, left boot corner, right boot corner, right line end, DR. Fill the polygon.
-7. Combine polygon with segmentation masks of pants, legs, boots and socks. Subtract segments of arms, bags, rackets etc. Create mask of it.
+7. Combine polygon with segmentation masks of pants, legs, boots and socks. Subtract segments of arms, bags, rackets etc. Create mask.
 8. Apply mask to original picture.
 
 ## Performance 
