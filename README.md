@@ -16,5 +16,5 @@ You can find code in **test_task.ipynb**, segmented pictures are stored in **dat
 
 ## Performance 
 Algorithm creates masks for 704 pictures for 45-50 seconds. Most of the masks are good, but there is a corner case that I couldn't manage to solve: 
-if original human parsing segmentation has errors, the output mask will be wrong (namely 176012_00, 176951_00, 176739_00, 176228_00). Other corner cases are treated with 
+if original human parsing segmentation has errors, the output mask will be wrong (namely pictures 176012_00, 176951_00, 176739_00, 176228_00). Other corner cases are treated with 
 heuristics and crunches, so the algorithm works well in most of the cases.
